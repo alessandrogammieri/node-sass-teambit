@@ -1,4 +1,8 @@
 footer {
     width: 100%;
+}
+
+.footer-container {
     height: 600px;
+    @extend %container;
 }

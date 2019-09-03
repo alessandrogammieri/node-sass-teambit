@@ -1,6 +1,96 @@
+@import url(https://fonts.googleapis.com/css?family=Manjari:400,700&display=swap&subset=malayalam);/* REGOLE GENERALI */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Manjari", sans-serif;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  list-style: none;
+}
+
+.footer-container,
+.header-container {
+  width: 60%;
+  margin: 0 auto;
+}
+
 header {
   width: 100%;
-  height: 750px;
+}
+
+.header-nav {
+  width: 100%;
+  background-color: #fff;
+  position: fixed;
+}
+
+.nav-bar {
+  width: 60%;
+  height: 75px;
+  margin: 0 auto;
+  display: flex;
+  border-bottom: 1px solid #bdb5af;
+}
+
+.nav-bar .logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 20%;
+}
+
+.nav-bar .nav-menu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 80%;
+}
+
+.nav-bar .nav-menu ul {
+  list-style-type: none;
+}
+
+.nav-bar .nav-menu li {
+  display: inline-block;
+  margin-right: 35px;
+}
+
+.nav-bar .nav-menu a {
+  text-decoration: none;
+  color: #58402c;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.nav-bar .nav-menu button {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  background-color: #fff;
+  border: 1px solid #30488f;
+  padding: 8px 12px;
+  color: #30488f;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 8px;
+}
+
+.nav-bar .nav-menu button img {
+  height: 18px;
+  margin-right: 7px;
+}
+
+.nav-bar .nav-menu button p {
+  position: relative;
+  top: 2px;
+}
+
+.header-container {
+  height: 730px;
 }
 
 .process,
@@ -25,21 +115,10 @@ header {
 
 footer {
   width: 100%;
-  height: 600px;
 }
 
-/* REGOLE GENERALI */
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Lato", sans-serif;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
-  list-style: none;
+.footer-container {
+  height: 600px;
 }
 
 body {

@@ -1,22 +1,37 @@
-
-// Background-color
-$body_bg: #ffffff;
-$section_bg: #ffe7d2;
-
-// File Importati
-@import "header";
-@import "main";
-@import "footer";
+// Font Manjari
+@import url('https://fonts.googleapis.com/css?family=Manjari:400,700&display=swap&subset=malayalam');
 
 /* REGOLE GENERALI */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Manjari', sans-serif;
     user-select: none;
     list-style: none;
 }
+
+// Background-color
+$body_bg: #ffffff;
+$section_bg: #ffe7d2;
+
+// PLACEHOLDER
+// Container
+%container {
+    width: 60%;
+    margin: 0 auto;
+}
+// Button Line
+%bottomLine {
+    width: 75%;
+    margin: 0 auto;
+}
+
+// File Importati
+@import "header";
+@import "main";
+@import "footer";
+
 body {
     background-color: $body_bg;
 }
