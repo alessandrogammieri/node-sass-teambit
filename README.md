@@ -2,5 +2,4 @@
 
 Website Teambit replica
 
-Ricreazione del sito web di Teambit: https://teambit.io/
-Utilizzando Node.js (NPM) e compilatore SASS.
+Ricreazione del sito web di Teambit: https://teambit.io/, utilizzando Node.js (NPM) e compilatore SASS.
