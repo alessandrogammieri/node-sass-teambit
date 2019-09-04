@@ -18,13 +18,17 @@ $section_bg: #ffe7d2;
 // PLACEHOLDER
 // Container
 %container {
-    width: 60%;
+    max-width: 1150px;
     margin: 0 auto;
 }
 // Button Line
 %bottomLine {
     width: 75%;
     margin: 0 auto;
+}
+// Header Container One and Two
+%headerCont {
+    width: 50%;
 }
 
 // File Importati

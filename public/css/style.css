@@ -14,12 +14,13 @@
 
 .footer-container,
 .header-container {
-  width: 60%;
+  max-width: 1150px;
   margin: 0 auto;
 }
 
-header {
-  width: 100%;
+.header-container .hdcont-two,
+.header-container .hdcont-one {
+  width: 50%;
 }
 
 .header-nav {
@@ -29,11 +30,12 @@ header {
 }
 
 .nav-bar {
-  width: 60%;
+  max-width: 1150px;
   height: 75px;
   margin: 0 auto;
+  padding: 20px 0;
   display: flex;
-  border-bottom: 1px solid #bdb5af;
+  justify-content: space-between;
 }
 
 .nav-bar .logo {
@@ -59,11 +61,45 @@ header {
   margin-right: 35px;
 }
 
+.nav-bar .nav-menu li img {
+  position: relative;
+  top: 4px;
+}
+
 .nav-bar .nav-menu a {
   text-decoration: none;
   color: #58402c;
   font-size: 14px;
   font-weight: 700;
+}
+
+.nav-bar .nav-menu a:hover {
+  color: #30488f;
+}
+
+.nav-bar .nav-menu #dropbox {
+  position: relative;
+}
+
+.nav-bar .nav-menu #dropbox .drop {
+  border-radius: 7px;
+  border: 1px solid #e1ddd4;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 0;
+  left: -9px;
+  margin-top: 24px;
+  background-color: #fff;
+  padding: 10px 30px 0 10px;
+  display: none;
+}
+
+.nav-bar .nav-menu #dropbox .drop div a {
+  line-height: 35px;
+}
+
+.nav-bar .nav-menu #dropbox .drop.active {
+  display: block;
 }
 
 .nav-bar .nav-menu button {
@@ -73,10 +109,15 @@ header {
   background-color: #fff;
   border: 1px solid #30488f;
   padding: 8px 12px;
-  color: #30488f;
-  font-size: 14px;
-  font-weight: 700;
   border-radius: 8px;
+}
+
+.nav-bar .nav-menu button:hover {
+  background-color: #30488f;
+}
+
+.nav-bar .nav-menu button:hover p {
+  color: #fff;
 }
 
 .nav-bar .nav-menu button img {
@@ -87,10 +128,81 @@ header {
 .nav-bar .nav-menu button p {
   position: relative;
   top: 2px;
+  color: #30488f;
+  font-size: 14px;
+  font-weight: 700;
 }
 
 .header-container {
   height: 730px;
+  border-top: 76px solid #bdb5af;
+  padding: 120px 0;
+  display: flex;
+}
+
+.header-container .hdcont-one h1 {
+  font-size: 50px;
+  margin-bottom: 30px;
+  color: #58402c;
+  line-height: 80px;
+}
+
+.header-container .hdcont-one h5 {
+  font-size: 25px;
+  margin-bottom: 30px;
+  color: #58402c;
+  line-height: 35px;
+}
+
+.header-container .hdcont-one .form {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 27px;
+}
+
+.header-container .hdcont-one .form button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #30488f;
+  border: 1px solid #30488f;
+  padding: 8px 20px;
+  border-radius: 8px;
+}
+
+.header-container .hdcont-one .form button img {
+  height: 18px;
+  margin-right: 4px;
+}
+
+.header-container .hdcont-one .form button p {
+  position: relative;
+  top: 2px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.header-container .hdcont-one .form span {
+  padding: 0 15px;
+  color: #bdb5af;
+  font-size: 14px;
+}
+
+.header-container .hdcont-one a {
+  text-decoration: none;
+  color: #58402c;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.header-container .hdcont-one a:hover {
+  color: #30488f;
+}
+
+.header-container .hdcont-two img {
+  max-width: 570px;
 }
 
 .process,

@@ -10706,7 +10706,16 @@ return jQuery;
 $ = __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js");
 
 function init() {
-  console.log("JQuery Hello World");
+  dropMenu();
+}
+
+function dropMenu() {
+  $(".drop, #dropbox > div").mouseenter(function () {
+    $(".drop").addClass("active");
+  });
+  $(".drop, #dropbox > div").mouseleave(function () {
+    $(".drop").removeClass("active");
+  });
 }
 
 $(document).ready(init);
