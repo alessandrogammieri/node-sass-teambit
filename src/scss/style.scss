@@ -11,6 +11,11 @@
     list-style: none;
 }
 
+// Variabili Larghezza
+$width_big: 50%;
+$width_medium: 40%;
+$width_small: 12%;
+
 // Background-color
 $body_bg: #ffffff;
 $section_bg: #ffe7d2;
@@ -26,9 +31,22 @@ $section_bg: #ffe7d2;
     width: 75%;
     margin: 0 auto;
 }
-// Header Container One and Two
-%headerCont {
-    width: 50%;
+// Tag <p> Footer
+%pFooter {
+    color: #58402c;
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+// Tag <a>
+%aTag {
+    text-decoration: none;
+    color: #58402c;
+    font-size: 14px;
+    font-weight: 700;
+    &:hover {
+        color: #30488f;
+    }
 }
 
 // File Importati

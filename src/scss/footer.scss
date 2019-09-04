@@ -1,8 +1,108 @@
-footer {
-    width: 100%;
-}
-
 .footer-container {
-    height: 600px;
+    height: 580px;
     @extend %container;
+    padding: 100px 0 80px 0;
+    display: flex;
+    .help {
+        width: $width_medium;
+        display: flex;
+        justify-content: flex-start;
+        img {
+            width: 50px;
+            height: 50px;
+            margin-right: 25px;
+        }
+        p {
+            @extend %pFooter;
+            a {
+                color: #30488f;
+                text-decoration: none;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+    .product {
+        width: $width_small;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        p {
+            @extend %pFooter;
+        }
+        li {
+            line-height: 35px;
+            a {
+                @extend %aTag;
+            }
+        }
+    }
+    .about {
+        width: $width_small;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        p {
+            @extend %pFooter;
+        }
+        li {
+            line-height: 35px;
+            a {
+                @extend %aTag;
+            }
+        }
+    }
+    .connect {
+        width: $width_small;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        p {
+            @extend %pFooter;
+        }
+        li {
+            line-height: 35px;
+            a {
+                @extend %aTag;
+            }
+        }
+    }
+    .labs {
+        width: $width_small;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        p {
+            @extend %pFooter;
+        }
+        li {
+            line-height: 35px;
+            a {
+                @extend %aTag;
+            }
+        }
+    }
+    .from-blog {
+        width: $width_small;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        p {
+            @extend %pFooter;
+        }
+        li {
+            line-height: 35px;
+            a {
+                @extend %aTag;
+                position: relative;
+                i {
+                    font-size: 13px;
+                    position: absolute;
+                    top: 0;
+                    right: -15px;
+                }
+            }
+        }
+    }
 }
