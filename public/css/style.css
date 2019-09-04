@@ -53,6 +53,141 @@
   color: #30488f;
 }
 
+.solutions .reviews,
+.solutions .feedback {
+  display: flex;
+  padding: 80px 0;
+}
+
+.solutions .reviews .illustration,
+.solutions .feedback .illustration {
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+}
+
+.solutions .reviews .illustration img,
+.solutions .feedback .illustration img {
+  max-width: 768px;
+}
+
+.solutions .reviews .solutions-text,
+.solutions .feedback .solutions-text {
+  width: 50%;
+  padding: 10px 0 0 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.solutions .reviews .solutions-text div,
+.solutions .feedback .solutions-text div {
+  width: 50%;
+}
+
+.solutions .reviews .solutions-text div h2,
+.solutions .feedback .solutions-text div h2 {
+  color: #58402c;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+.solutions .reviews .solutions-text div p,
+.solutions .feedback .solutions-text div p {
+  color: #58402c;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 35px;
+  padding: 30px 0;
+}
+
+.solutions .reviews .solutions-text div a,
+.solutions .feedback .solutions-text div a {
+  text-decoration: none;
+  color: #30488f;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.solutions .reviews .solutions-text div a:hover,
+.solutions .feedback .solutions-text div a:hover {
+  color: #263e82;
+}
+
+.solutions .reviews .solutions-text div img,
+.solutions .feedback .solutions-text div img {
+  max-width: 270px;
+  margin: 30px 0 0 60px;
+}
+
+.solutions .praise,
+.solutions .surveys {
+  display: flex;
+  padding: 80px 0;
+}
+
+.solutions .praise .solutions-text,
+.solutions .surveys .solutions-text {
+  width: 50%;
+  padding: 10px 40px 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.solutions .praise .solutions-text div,
+.solutions .surveys .solutions-text div {
+  width: 50%;
+}
+
+.solutions .praise .solutions-text div h2,
+.solutions .surveys .solutions-text div h2 {
+  color: #58402c;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+.solutions .praise .solutions-text div p,
+.solutions .surveys .solutions-text div p {
+  color: #58402c;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 35px;
+  padding: 30px 0;
+}
+
+.solutions .praise .solutions-text div a,
+.solutions .surveys .solutions-text div a {
+  text-decoration: none;
+  color: #30488f;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.solutions .praise .solutions-text div a:hover,
+.solutions .surveys .solutions-text div a:hover {
+  color: #263e82;
+}
+
+.solutions .praise .solutions-text div img,
+.solutions .surveys .solutions-text div img {
+  max-width: 270px;
+  margin: 30px 0 0 60px;
+}
+
+.solutions .praise .illustration,
+.solutions .surveys .illustration {
+  display: flex;
+  justify-content: flex-start;
+  width: 50%;
+}
+
+.solutions .praise .illustration img,
+.solutions .surveys .illustration img {
+  max-width: 768px;
+}
+
 .header-nav {
   width: 100%;
   background-color: #fff;
@@ -248,7 +383,6 @@
 
 .solutions {
   width: 100%;
-  height: 2400px;
 }
 
 .call {

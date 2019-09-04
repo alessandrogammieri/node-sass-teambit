@@ -9,7 +9,18 @@
 
 .solutions {
     width: 100%;
-    height: 2400px;
+    .feedback {
+        @extend %illeftSolu;
+    }
+    .surveys {
+        @extend %ilrightSolu;
+    }
+    .reviews {
+        @extend %illeftSolu;
+    }
+    .praise {
+        @extend %ilrightSolu;
+    }
 }
 
 .call {

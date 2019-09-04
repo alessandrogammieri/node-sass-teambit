@@ -48,6 +48,103 @@ $section_bg: #ffe7d2;
         color: #30488f;
     }
 }
+// Illustration and Solutions 
+%illeftSolu {
+    display: flex;
+    padding: 80px 0;
+    .illustration {
+        display: flex;
+        justify-content: flex-end;
+        width: $width_big;
+        img {
+            max-width: 768px;
+        }
+    }
+    .solutions-text {
+        width: $width_big;
+        padding: 10px 0 0 40px;
+        display: flex;
+        flex-direction: column;
+        div {
+            width: 50%;
+            h2 {
+                color: #58402c;
+                font-size: 28px;
+                font-weight: 700;
+                line-height: 40px;
+            }
+            p {
+                color: #58402c;
+                font-size: 24px;
+                font-weight: 400;
+                line-height: 35px;
+                padding: 30px 0;
+            }
+            a {
+                text-decoration: none;
+                color: #30488f;
+                font-size: 20px;
+                font-weight: 700;
+                &:hover {
+                    color: #263e82;
+                }
+            }
+            img {
+                max-width: 270px;
+                margin: 30px 0 0 60px;
+            }
+        }    
+    }
+}
+%ilrightSolu  {
+    display: flex;
+    padding: 80px 0;
+    .solutions-text {
+        width: $width_big;
+        padding: 10px 40px 0 0;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        div {
+            width: 50%;
+            h2 {
+                color: #58402c;
+                font-size: 28px;
+                font-weight: 700;
+                line-height: 40px;
+            }
+            p {
+                color: #58402c;
+                font-size: 24px;
+                font-weight: 400;
+                line-height: 35px;
+                padding: 30px 0;
+            }
+            a {
+                text-decoration: none;
+                color: #30488f;
+                font-size: 20px;
+                font-weight: 700;
+                &:hover {
+                    color: #263e82;
+                }
+            }
+            img {
+                max-width: 270px;
+                margin: 30px 0 0 60px;
+            }
+        }
+    }
+    .illustration {
+        display: flex;
+        justify-content: flex-start;
+        width: $width_big;
+        img {
+            max-width: 768px;
+        }
+    }
+}
+
 
 // File Importati
 @import "header";
