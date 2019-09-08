@@ -36,6 +36,7 @@
 .footer-container .connect li a,
 .footer-container .about li a,
 .footer-container .product li a,
+.call .box-call a,
 .header-container .hdcont-one a,
 .nav-bar .nav-menu a {
   text-decoration: none;
@@ -49,6 +50,7 @@
 .footer-container .connect li a:hover,
 .footer-container .about li a:hover,
 .footer-container .product li a:hover,
+.call .box-call a:hover,
 .header-container .hdcont-one a:hover,
 .nav-bar .nav-menu a:hover {
   color: #30488f;
@@ -193,6 +195,7 @@
   width: 100%;
   background-color: #fff;
   position: fixed;
+  z-index: 999;
 }
 
 .nav-bar {
@@ -447,7 +450,127 @@
 
 .call {
   width: 100%;
-  height: 600px;
+}
+
+.call .box-call {
+  margin: 0 auto;
+  width: 40%;
+  padding: 80px 0 60px 0;
+  text-align: center;
+}
+
+.call .box-call h2 {
+  color: #58402c;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 60px;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.call .box-call button {
+  z-index: 1;
+  max-width: 628px;
+  padding: 20px 20px 20px 40px;
+  border: 1px solid #bdb5af;
+  border-radius: 7px;
+  background: #fff;
+  position: relative;
+}
+
+.call .box-call button .quote {
+  position: absolute;
+  top: -23px;
+  left: 0;
+}
+
+.call .box-call button p {
+  color: #58402c;
+  font-size: 17px;
+  font-weight: 400;
+  padding-bottom: 25px;
+  text-align: left;
+  line-height: 25px;
+}
+
+.call .box-call button .photo {
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
+
+.call .box-call button .photo img {
+  margin-right: 10px;
+}
+
+.call .box-call button .photo .sign {
+  display: flex;
+  flex-direction: column;
+}
+
+.call .box-call button .photo .sign span {
+  color: #30488f;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.call .box-call button .photo .sign p {
+  color: #58402c;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.call .box-call .form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 35px 0 27px 0;
+}
+
+.call .box-call .form button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #30488f;
+  border: 1px solid #30488f;
+  padding: 8px 20px;
+  border-radius: 8px;
+}
+
+.call .box-call .form button:hover {
+  background-color: #263e82;
+}
+
+.call .box-call .form button img {
+  height: 18px;
+  margin-right: 4px;
+}
+
+.call .box-call .form button p {
+  position: relative;
+  top: 2px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  padding-bottom: 0;
+}
+
+.call .box-call .form span {
+  padding: 0 15px;
+  color: #bdb5af;
+  font-size: 14px;
+}
+
+.call .box-call a {
+  position: relative;
+}
+
+.call .box-call a i {
+  font-size: 13px;
+  position: absolute;
+  top: 0;
+  right: -15px;
 }
 
 .footer-container {
